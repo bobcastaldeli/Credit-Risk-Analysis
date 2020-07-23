@@ -1,23 +1,22 @@
 # Credit-Risk-Analysis
 
-Este é um projeto de análise de Risco de crédito do "German Credit Data" onde foi feita uma análise dos dados e logo em seguida,foi feita a aplicação de algoritmos de aprendizado supervisionado.
+Este é um projeto de análise de Risco de crédito, com intuito de prever o nível de inadimplência dos clientes do famoso dataset "German Credit Data". Inicialmente é realizada a limpeza dos dados, depois feita uma análise exploratória dos dados, seguida por a escolha do melhor modelo de machine learning a ser utilizado para tentar classificar os clientes inadimplentes dos não inadimplentes, na sequência é feito o tunning do modelo com a utilização de otimização bayesiana para escolha dos melhores hiperparâmetros e por fim, é realizada a avaliação do modelo de aprendizado supervisionado.
+ 
+Para este projeto foram utilizados os seguintes pacotes:
 
-# Requirimentos
+* **Análise e manipulação de dados**
+	* Numpy;
+	* Pandas;
+	* Pingouin;
+	* Statsmodels;
 
-  Python 3.8
-  
-  Numpy
-  
-  Scipy
-  
-  Pandas
-  
-  Matplotlib
-  
-  Seaborn
-  
-  Scikit Learn
+* **Visualização de Dados**
+	* Matplotlib;
+	* Seaborn;
+	* Plotly;
+	* Yellowbrick;
 
-  Imblearn
-  
-  Yellowbrick
+* **Machine Learning e Otimização**
+	* Scikit-Learn;
+	* Scikit-Optmize;
+
